@@ -1,0 +1,220 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #efb200;
+    margin: 0%;
+}
+    
+    
+li{
+    display: inline;
+    background-color: transparent;
+    margin-left: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+a{
+    display: inline-block;
+    text-align: left;
+    max-width: 0,5%;
+    text-decoration: dotted;
+    background-color: transparent;
+    font-family: 'Fredoka One', sans-serif;
+    color: rgb(60, 60, 60);
+    font-size: 20px;
+}
+    
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.523);
+    position: fixed;
+    width: 90%;    
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+/*HOME*/
+
+.maintext-box{
+    overflow-wrap: break-word;
+    width: 40%;
+    margin-left: 10%;
+    overflow: hidden;
+}
+
+.home-background{
+    background-image: url("../images/SOJU_Artboard-1-100.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+.intro-title{
+    color: rgba(255, 68, 68, 0.864);
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 100px;
+    float: left;  
+}
+
+.maintext{
+    color: rgba(255, 255, 255, 0.864);
+    margin-top: 27%;
+    margin-bottom: 5%;
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 80px;
+    float: left;
+}
+
+
+.home-backgroundimage{
+    z-index: 1;
+    width: 100%;
+    height: auto;
+}
+
+/*about*/
+
+.about-background{
+    background-image: url("../images/SOJU_Artboard-5-100.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-text{
+    color: rgba(255, 255, 255, 0.864);
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 57px;
+    float: left;
+}
+
+.about-me-title{
+    color: rgba(160, 255, 58, 0.864);
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 100px;
+    float: left;
+}
+
+.abouttext-box{
+    overflow-wrap: break-word;
+    width: 40%;
+    margin-left: 10%;
+    overflow: hidden;
+}
+
+
+.about-box{
+    width: 40%;
+    height: 20%;
+    border: 10%;
+    background-color: #e04e37;
+    float: right;
+    margin-right: 6%;
+    margin-top: 5%;
+}
+
+.projects-title{
+    margin-left: 10%;
+    font-family: 'Cormorant Garamond', serif;
+    color: #414141;
+}
+
+.project-line{
+    border-bottom: 3px solid #414141;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+
+/* slideshow */ 
+
+.slideshow-container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slideshow-container1 {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.slideshow-container2 {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+  
+.slideshow-container3 {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.slideshow-container4 {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.slideshow-container img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+  
+.slideshow1, .slideshow2, .slideshow3, .slideshow4{
+    display: none;
+}
+
+.slideshow-text1, .slideshow-text2, .slideshow-text3, .slideshow-text4{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.slideshow-text1, .slideshow-text2, .slideshow-text3, .slideshow-text4{
+    float: right;
+    width: 100%;
+    height: relative;
+    font-family: 'Fredoka One', sans-serif;
+
+}
+
+.slideshow-text1{
+    background-color: #0071bc;
+}
+
+.slideshow-text2{
+    background-color: #d12a30;
+}
+
+.slideshow-text3{
+    background-color: #93278f;
+}
+
+.slideshow-text4{
+    background-color: #009245;
+}
+
+.text-left h2, .text-right h2 {
+  text-align: right;
+}
+
+.text-left p, .text-right p {
+    text-align: right;
+}
